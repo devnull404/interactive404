@@ -1,0 +1,98 @@
+html {
+    font-family: arial;
+}
+body {
+    background-color: white;
+}
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: sticky;
+    top: 0;
+}
+nav {
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+div {
+    display: flex;
+    align-items: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+input {
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 3px;
+    width: 150px;
+    height: 20px;
+    margin-left: 20px;
+    transition: all 0.4s ease-in-out;
+}
+input:focus {
+    width: 260px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.containter-main {
+    display: flex;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 900px;
+}
+section {
+    min-width: 300px;
+    max-width: 550px;
+}
+article {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.img-container {
+    padding: 10px;
+    justify-content: center;
+}
+.img-section {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+aside {
+    min-width: 200px;
+    position: sticky;
+    top: 65px;
+    border: 1px solid gray;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    margin: 0 auto;
+}
